@@ -1,0 +1,47 @@
+.main-menu-container {
+  padding-left: 0px;
+  padding-right: 0px;
+
+  .main-navbar {
+    background-color: transparent;
+    border-color: transparent;
+    margin: 0;
+    border: none;
+    overflow: hidden;
+
+    .brand-name {
+      font-family: Lobster;
+      font-size: 43px;
+      color: #44c0c2;
+      height: 100px;
+      line-height: 60px;
+      padding-left: 10px;
+      padding-right: 0px;
+    }
+
+    .xs-navbar-button {
+      margin-top: 32px;
+    }
+
+    .main-navbar-nav {
+
+      & > li {
+        margin-left: 24px;
+      }
+
+      & > li > a {
+        padding: 40px 15px;
+      }
+
+      & > li.item-active,
+      & > li:hover {
+        border-bottom: 3px solid @bluesea;
+        background-color: #f8f9fb;
+
+        & > a {
+          color: @bluesea;
+        }
+      }
+    }
+  }
+}

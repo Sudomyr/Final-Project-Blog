@@ -1,0 +1,91 @@
+.sidebar {
+  padding-left: 11px;
+  padding-right: 11px;
+  margin-top: 19px;
+
+    .search-input {
+      height: 43px;
+      border-radius: 0px;
+    }
+    .search-icon {
+      padding-top: 5px;
+      padding-right: 10px;
+      color: #bababa;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .follow-text {
+      font-size: 26px;
+      font-family: OpenSansR;
+      color: @mygray;
+      margin-top: 53px;
+      margin-bottom: 21px;
+    }
+    .follow-icons {
+
+      & > a {
+        margin-right: 15px;
+      }
+      & > a:last-child {
+        margin-right: 0px;
+      }
+    }
+    .email-input-box {
+      margin-top: 47px;
+      margin-bottom: 30px;
+      
+      .email-input {
+        border-radius: 0px;
+        height: 43px;
+      }
+    }
+    .subscribe-button {
+      color: white;
+      border: none;
+      font-family: OpenSansR;
+      font-size: 16px;
+      width: 170px;
+      height: 40px;
+      background-color: @bluesea;
+
+        &:hover {
+          background-color: #788492;
+        }
+    }
+    .category-text {
+      font-size: 26px;
+      font-family: OpenSansR;
+      color: @mygray;
+      margin-top: 42px;
+      margin-bottom: 20px;
+    }
+    .category-pills {
+
+      & > li > a {
+        color: @mygray;
+        padding-left: 0px;
+        font-family: OpenSansR;
+        font-size: 13px;
+
+          & > .glyphicon-menu-right {
+            color: @bluesea;
+            padding-right: 12px;
+            font-size: 11px;
+          }
+      }
+      & > li.category-active > a,
+      & > li > a:hover {
+        padding-left: 15px !important;
+        background-color: @darkgray;
+        color: white;
+        text-align: center;
+
+          & > .glyphicon-menu-right {
+            color: white !important;
+            float: left;
+            font-size: 11px;
+            top: 5px;
+          }
+      }
+    }
+}

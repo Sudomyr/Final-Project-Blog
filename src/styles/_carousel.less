@@ -1,0 +1,80 @@
+.second-container {
+  max-width: 1349px;
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+
+  .carousel-indicators {
+    display: none;
+  }
+  .inform-box {
+    top: 15%;
+
+    .h1-text {
+      font-family: OpenSansSB;
+      font-size: 60px;
+    }
+    .h5-text {
+      font-family: OpenSansR;
+      font-size: 20px;
+      margin-top: 30px;
+      line-height: 1.6;
+    }
+    .btn-carousel {
+      margin-top: 45px;
+
+      .btn-header {
+        background-color: transparent;
+        border: 2px solid white;
+        font-family: OpenSansSB;
+        font-size: 24px;
+        padding-left: 32px;
+        padding-right: 32px;
+        color: white;
+      }
+      .btn-header:hover {
+        background-color: #fff;
+        color: @bluesea;
+      }
+    }
+  }
+  .arrow1 {
+    position: absolute;
+    top: 48%;
+    left: 29px;
+  }
+  .arrow2 {
+    position: absolute;
+    top: 48%;
+    right: 29px;
+  }
+}
+@media (max-width: 1200px){
+  .h1-text {
+    font-size: 52px !important;
+  }
+  .h5-text {
+    font-size: 17px !important;
+    margin-top: 20px !important;
+  }
+}
+@media (max-width: 1000px) {
+  .h1-text {
+    font-size: 43px !important;
+  }
+  .h5-text {
+    font-size: 15px !important;
+    margin-top: 15px !important;
+  }
+  .btn-carousel {
+    margin-top: 20px !important;
+  }
+  .inform-box {
+    top: 8% !important;
+  }
+}
+@media (max-width: 600px) {
+  .inform-box {
+    display: none !important;
+  }
+}
